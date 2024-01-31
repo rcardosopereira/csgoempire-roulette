@@ -1,0 +1,29 @@
+{
+  "name": "csgoempire-roulette",
+  "version": "1.0.0",
+  "description": "Automatic testing of a roulette betting site",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cypress:open": "cypress open",
+    "cy:run": "cypress run --spec 'cypress/e2e/**/*'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rcardosopereira/csgoempire-roulette.git"
+  },
+  "keywords": [
+    "JS",
+    "Cypress",
+    "Automation"
+  ],
+  "author": "Rafael C. Pereira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rcardosopereira/csgoempire-roulette/issues"
+  },
+  "homepage": "https://github.com/rcardosopereira/csgoempire-roulette#readme",
+  "devDependencies": {
+    "cypress": "^13.6.4"
+  }
+}
